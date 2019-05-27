@@ -12,6 +12,11 @@ for i in dictDemo.values():
 
 print(dictDemo.values())
 
-print(dictDemo['key100'])
+print(dictDemo['key1'])
+
+
+dictOne = dict(sape=4139, guido=4127, jack=4098)
+print(dictOne['sape'])
+
 
     
