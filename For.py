@@ -4,6 +4,12 @@ print('start one({1}), end({0})'.format('cpy', 'cry'))
 numbers = 1, 2, 3, 4
 L = []
 
+# 逆向遍历
+for i in range(len(numbers)-1, -1, -1):
+    print(numbers[i], end=' ')
+
+print('\n', '-'*10)
+
 for i, v in enumerate(numbers):
     print(i, v)
 
