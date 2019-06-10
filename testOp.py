@@ -10,7 +10,7 @@ class Solution:
         if leftUsed < n:
             self.gen(leftUsed + 1, rightUsed, n, result + "(", list)
         if rightUsed < leftUsed and rightUsed < n:
-            self.gen(leftUsed, rightUsed + 1, n, result + ")", list)
+            self.gen(leftUsed, rightUsed + 1, n, result + ")", list)            
         if leftUsed == n and rightUsed == n:
             list.append(result)
 
