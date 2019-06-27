@@ -35,3 +35,12 @@ composeNumber(numbers)
 
 for i, v in enumerate(L):
     print(f'==== {v}')
+
+
+prices = [1, 2, 4, 5]
+pt = [[0 for _ in range(2)] for i in prices]
+pt2 = [[0] for _ in range(2) for i in prices]
+pt3 = [[[0 for _ in range(2)] for _ in range(2)] for i in prices]
+print(pt)
+print(pt2)
+print(pt3)

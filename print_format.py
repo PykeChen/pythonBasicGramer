@@ -5,7 +5,7 @@ value2 = 'Test'
 
 print('This is a {1}, value is {0}'.format(value1, value2))
 
-# :后输出格式
+# :后输出格式 .3f表示小数点后三位，.3表示总位数3位
 print('This is a {1:6}, value is {0:.3f}'.format(value1, value2))
 
 print(f'This is a {value2}, value is {value1}')

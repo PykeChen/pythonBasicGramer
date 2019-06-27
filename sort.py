@@ -26,6 +26,9 @@ datas = [Item('a', 6), Item('e', 2), Item('f', 2),
          Item('a', 4), Item('d', 21), Item('c', 9)]
 
 
+print(datas.sort())
+
+
 newData = sorted(datas, key=attrgetter('name'), reverse=True)
 for i in newData:
     print(i.name, i.age)
