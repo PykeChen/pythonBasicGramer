@@ -6,6 +6,7 @@
 class TestCls:
     a = 100
     b = [1, 2, 3, 4]
+    c = [11, 12, 13, 14]
 
     @staticmethod
     def testStaticMethod(a):
@@ -70,6 +71,7 @@ def methodsTst():
     print('I just test')
 
 
+TestClas2.bb
 instanceClas.testMethodCall(methodsTst)
 
 # test3

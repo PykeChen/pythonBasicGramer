@@ -21,5 +21,8 @@ class Solution(object):
         return res
 
 
+str11 = '23432'
+print(type(str11))
+
 so = Solution()
 print(so.maxProduct([2, 3, -2, 4]))

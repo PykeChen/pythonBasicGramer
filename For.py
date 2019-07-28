@@ -44,3 +44,11 @@ pt3 = [[[0 for _ in range(2)] for _ in range(2)] for i in prices]
 print(pt)
 print(pt2)
 print(pt3)
+
+
+word1 = 'workd1'
+for i in word1[:3]:
+    print(i)
+
+for i in range(1, 3):
+    print(i)
